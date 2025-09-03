@@ -247,33 +247,6 @@ main {
     position: relative;
 }
 
-.highlight-box::before {
-    content: '💡';
-    position: absolute;
-    top: -10px;
-    left: 20px;
-    background: var(--bg-card);
-    padding: 0 0.5rem;
-    font-size: 1.2rem;
-}
-
-.contact-info {
-    background: var(--gradient-secondary);
-    color: white;
-    padding: 2rem;
-    border-radius: 16px;
-    margin: 2rem 0;
-}
-
-.contact-info h3 {
-    color: white;
-    margin-bottom: 1rem;
-}
-
-.contact-info p {
-    color: rgba(255, 255, 255, 0.9);
-    margin-bottom: 0.5rem;
-}
 
 a {
     color: var(--primary-color);
