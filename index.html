@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | DartQuest - Learn Dart Programming</title>
+    <meta name="description" content="Privacy Policy for DartQuest - A privacy-focused Dart learning app that doesn't collect personal data or create accounts.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="logo.png" alt="DartQuest Logo" width="60" height="60" />
+                </div>
+                <div>
+                    <h1>DartQuest</h1>
+                    <div class="subtitle">Privacy Policy</div>
+                </div>
+            </div>
+            <div class="last-updated">
+                Effective: September 3, 2025
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro fade-in">
+            <h2>Privacy-First Learning</h2>
+            <p>DartQuest is designed with your privacy in mind. We don't collect personal data, don't create accounts, and keep everything simple and secure while you learn Dart programming.</p>
+        </section>
+
+        <section class="content-section fade-in">
+            <h2>🏢 Who we are</h2>
+            <p><strong>DartQuest</strong> (the "App", "we", "us") is a learning utility built by <strong>Mahafujer Rahman</strong> to help you explore Dart tutorials, practice code, and take quick quizzes.</p>
+        </section>
+
+        <section class="content-section fade-in">
+            <h2>🔒 What data we (do not) collect</h2>
+            <p>We designed DartQuest to work <strong>without user accounts</strong> and <strong>without collecting personal information</strong>.</p>
+            <div class="highlight-box">
+                <h3>We do NOT:</h3>
+                <ul>
+                    <li>Ask for your name, email, phone, or payment data</li>
+                    <li>Track you across apps or websites</li>
+                    <li>Use third‑party analytics SDKs inside the app</li>
+                </ul>
+            </div>
+            <p>We may process <strong>minimal, non‑identifying technical data</strong> that your device or the operating system provides in the normal course of running an app (e.g., generic crash information, OS version) to keep the app working. Where applicable, crash/diagnostic data collection is <strong>opt‑in</strong> per your device or app store settings.</p>
+        </section>
+
+        <section class="content-section fade-in">
+            <h2>📱 What the app does</h2>
+            <ul>
+                <li>Opens <strong>external learning pages</strong> (e.g., <code>geeksforgeeks.org</code>) and <strong>DartPad</strong> (<code>dartpad.dev</code>) via your browser or an in‑app web view</li>
+                <li>Lets you <strong>share</strong> a store/app link using your device's native share sheet (no data is stored by us)</li>
+                <li>Runs <strong>local quizzes (MCQs)</strong> and basic navigation; your choices stay on your device unless you choose to share them</li>
+            </ul>
+        </section>
+
+        <section class="content-section fade-in">
+            <h2>🔗 Third‑party services</h2>
+            <p>When you open external links from the app, those sites may collect data under their own policies. Examples:</p>
+            <ul>
+                <li><strong>GeeksforGeeks</strong> — <a href="https://www.geeksforgeeks.org/" target="_blank" rel="noopener">https://www.geeksforgeeks.org/</a></li>
+                <li><strong>DartPad</strong> — <a href="https://dartpad.dev/" target="_blank" rel="noopener">https://dartpad.dev/</a></li>
+            </ul>
+            <p>We do not control third‑party websites. Please review their privacy policies.</p>
+        </section>
+
+        <section class="content-section fade-in">
+            <h2>🔑 Permissions</h2>
+            <ul>
+                <li><strong>Internet</strong> (<code>android.permission.INTERNET</code>): required to open external tutorials and DartPad</li>
+                <li><strong>(Optional) Cleartext traffic</strong>: not used by default; if you open non‑HTTPS links, your OS/network policies apply</li>
+            </ul>
+            <p>We do <strong>not</strong> request location, contacts, camera, microphone, or storage permissions.</p>
+        </section>
+
+        <section class="content-section fade-in">
+            <h2>👶 Children's privacy</h2>
+            <p>DartQuest is a general‑audience educational app and does not knowingly collect personal information from children. If you believe a child provided personal data to us, contact <strong>[your email here]</strong> and we'll address it promptly.</p>
+        </section>
+
+        <section class="content-section fade-in">
+            <h2>🛡️ Data security</h2>
+            <ul>
+                <li>We keep data processing <strong>on‑device</strong> wherever possible</li>
+                <li>External content generally loads over <strong>HTTPS</strong> (secure) connections</li>
+                <li>No backend server of ours stores your personal data</li>
+            </ul>
+        </section>
+
+        <section class="content-section fade-in">
+            <h2>📝 Updates to this policy</h2>
+            <p>We may update this policy to reflect app changes or legal requirements. We'll post the updated policy here with a new <strong>"Effective date"</strong>. Material changes will be highlighted within the app or release notes where reasonable.</p>
+        </section>
+
+        <section class="content-section fade-in">
+            <h2>📞 Contact us</h2>
+            <p>Have questions about this privacy policy or DartQuest? We're here to help.</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> [your email here]</p>
+                <p><strong>Address:</strong> [your business/organization address, city, country]</p>
+                <p><strong>App package ID:</strong> <code>[com.yourcompany.dartquest]</code></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 DartQuest by Mahafujer Rahman. All rights reserved.</p>
+            <p>Built with privacy in mind • No tracking • No accounts required</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Back to top button
+        const backToTop = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
